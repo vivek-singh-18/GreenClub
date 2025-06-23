@@ -1,0 +1,133 @@
+.container{
+    width: 100%;
+    height: max-content;
+    /* background-color: blue; */
+    display: flex;
+    flex-wrap: wrap;
+}
+#ch1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 40%;
+    height: 40vh;
+    /* background-color: brown; */
+    color: #36ca49;
+}
+#ch2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 40vh;
+    /* background-color: green; */
+    color: #36ca49;
+}
+#ch3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: 40vh;
+    /* background-color: black; */
+    color: #36ca49;
+}
+p{
+    font-size: 20px;
+    padding: 10px;
+    width: 300px;
+    margin-left: 15%;
+    font-family: "Adamina", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#cp{ font-family: "Adamina", serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 400px;
+    color:  rgba(217, 217, 217 , 0.7);
+}
+#mnnit{
+    font-family: "Adamina", serif;
+    font-weight: 400;
+    font-style: normal;
+    color:  rgba(217, 217, 217 , 0.7);
+    text-decoration: none;
+}
+
+a{ 
+
+
+    font-family: "Adamina", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    color: #36ca49;
+
+}
+a:hover{
+    color: #bce191;
+}
+
+.hd{
+    font-size: 24px;
+    font-family: "Adamina", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #c9ee10;
+    width: 300px;
+    padding: 0%;
+    margin-left: 15%;
+    margin-right: 0%;
+}
+li{
+    padding: 8px;
+    margin: 2px 0px;
+    font-size: 18px;
+    font-family: "Adamina", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+ul{
+    list-style-type: none;
+    position: relative;
+    right: 15%;
+    bottom: 10%;
+}
+@media  only screen and (max-width:1000px){
+    #ch1{
+        width: 100%;
+        align-items: center;
+        order: 1;
+    }
+    #ch2{
+        align-items: center;
+        width: 100%;
+    }
+    #ch3{
+        align-items: center;
+        width: 100%;
+    }
+    ul{
+        position: relative;
+        right: 0%;
+    }
+    .hd{
+        margin-left: 0%;
+        text-align: center;
+    }
+
+    #credit{
+        text-align: center;
+    }
+
+    #cp{
+        text-align: center;
+    }
+
+   
+
+
+}
